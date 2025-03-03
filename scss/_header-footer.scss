@@ -1,0 +1,41 @@
+.header {
+    font-weight: 400;
+    
+    .nav {
+      display: flex;
+      justify-content: space-between; 
+      
+      .subtitle {
+         line-height: 1; 
+         font-size: toRem(27);
+         align-self: flex-start;
+      }
+      .nav-block {
+        display: flex;
+        justify-content: space-between;
+        gap: 75px;
+
+         .nav-item {
+            line-height: 1.2;
+            font-size: 16px; 
+            align-self: center;
+        }
+
+        .link-item { 
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+
+            .facebook-icon,
+            .instagram-icon { 
+                flex-wrap: nowrap;
+                max-width: 100%;
+                max-height: 100%;
+            }  
+        }
+      }
+   }
+ }
+.footer {
+  flex: 0 0 auto
+}
